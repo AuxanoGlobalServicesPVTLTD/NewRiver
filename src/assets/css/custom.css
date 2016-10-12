@@ -151,6 +151,7 @@ button.btn.btn-shield.btn-lg.btn-block:hover {
 	color: #779476;
     font-size: 36px;
 }
+/* Custom CSS */
 .product.para {
     font-weight: bold;
     margin-bottom: 0px;
@@ -210,8 +211,39 @@ button.btn.btn-shield.btn-lg.btn-block:hover {
 .service.row.center.credit {
     padding: 10px 0px 0px 0px;
 }
+.left {
+    text-align: left;
+    margin: 0 auto;
+    padding: 12px 30px 0 30px;
+}
+.building.btn.btn-info{
+	width: 100%;
+	text-align: left;
+	background-color: #779476;
+	border-color: #779476;
+}
+.building.btn-info:focus, .building.btn-info.focus{
+	background-color: #779476;
+	border-color: #779476;
+}
+blockquote{
+	border-left: none;
+}
+.answer{
+	font-size: 16px;
+}
+@media only screen and (min-width: 320px) and (max-width: 764px){
+	.responsive-width {
+		font-size: 2.2vw;
+	}
+}
+@media only screen and (max-width: 991px){
+	.main {
+		padding-bottom: 50px !important;
+	}
+}
 
-
+/* Custom CSS */
 
 i.fa.fa-search.analyze {
 	color: #779476;
